@@ -1,0 +1,15 @@
+{
+  "name": "quote-machine",
+  "version": "0.0.1",
+  "description": "Generates random queotes",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "gulp": "^3.9.1"
+  }
+}

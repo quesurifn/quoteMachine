@@ -1,0 +1,33 @@
+body {
+  background-color: coral;
+}
+
+div.box {
+  border-radius: 3px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 450px;
+  display: table;
+  padding: 60px 50px;
+  background-color: white;
+}
+
+div.box > button {
+  margin-left: 25rem;
+  margin-bottom: -4em;
+  background-color: coral;
+  color: white;
+}
+
+
+div.box > h1 {
+  padding-bottom: 2rem;
+  margin-top: -2rem
+}
+
+a > button {
+  border-radius: 3px;
+  background-color: coral;
+  color: white;
+  margin-top: 3px;
+}
