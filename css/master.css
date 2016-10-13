@@ -17,8 +17,13 @@ div.box > button {
   margin-bottom: -4em;
   background-color: coral;
   color: white;
+  opacity: 1;
+  outline-style: none;
 }
 
+div.box > button:hover {
+  opacity: 0.8;
+}
 
 div.box > h1 {
   padding-bottom: 2rem;
@@ -30,4 +35,29 @@ a > button {
   background-color: coral;
   color: white;
   margin-top: 3px;
+  opacity: 1;
+  outline: none;
+}
+
+a > button:hover {
+  opacity: 0.8;
+}
+
+span > h1 , i {
+display: inline;
+}
+
+span > i.fa{
+  font-size: 5rem;
+  padding-right: 1rem;
+}
+
+p.a {
+  text-align: right;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  color: white;
 }
